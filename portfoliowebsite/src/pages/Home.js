@@ -35,7 +35,7 @@ function Home() {
           window.open("https://github.com/", "_blank");
           }}
       >
-        Githubf
+        Github
       </button>
     </div>
   );
