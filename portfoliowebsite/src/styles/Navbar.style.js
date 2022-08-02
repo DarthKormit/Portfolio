@@ -5,12 +5,12 @@ import { Link } from "react-router-dom";
 export const NavbarContainer = styled.nav`
     width: 100%;
     height: ${(props) => (props.extendNavbar ? "100vh" : "80")};
-    background-color: black;
+    background-color: white;
     display: flex;
     flex-direction: column;
 
     @media (min-width: 700px){
-        height: 80px;
+        height: 60px;
     }
 `;
 
@@ -19,7 +19,7 @@ export const LeftContainer = styled.div`
     display: flex;
     align-items: center;
     padding-left: 5%;
-    background-color: red;
+    background-color: #0c2f8fd8;
 `;
 
 export const RightContainer = styled.div`
@@ -27,12 +27,12 @@ export const RightContainer = styled.div`
     display: flex;
     justify-content: flex-end;
     padding-right: 50px;
-    background-color: salmon;
+    background-color: #0c2f8fd8;
 `;
 
 export const NavbarInnerContainer = styled.div`
     width: 100%;
-    height: 80px;
+    height: 60px;
     display: flex;
 `;
 
@@ -41,8 +41,8 @@ export const NavbarLinkContainer = styled.div`
 `;
 
 export const NavbarLink = styled(Link)`
-    color: white;
-    font-size: x-large;
+    color: black;
+    font-size: large;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     margin: 10px;
@@ -53,7 +53,7 @@ export const NavbarLink = styled(Link)`
 `;
 
 export const NavbarLinkExtended = styled(Link)`
-    color: white;
+    color: black;
     font-size: x-large;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
